@@ -2,6 +2,11 @@ html,
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #330066;
 }
 #profile_card {
   position: absolute;
@@ -11,11 +16,15 @@ body {
 }
 #profile_card_info {
   padding: 30px;
-  max-width: 300px;
+  max-width: 250px;
   height: auto;
-  background: rgba(25, 200, 255, 0.2);
-  border-radius: 5px;
-  position: relative;
+  /* background: #ffe67c; */
+  background-image: linear-gradient(to bottom right, #f6b042, #f9ed4e);
+  border-radius: 8px;
+  /* position: relative; */
+}
+#profile_card_info: hover {
+  box-shadow: 0 10px 16px 0 rgba(106, 108, 109, 0.082);
 }
 #perosnal_photo {
   display: block;
@@ -23,6 +32,8 @@ body {
   border-radius: 50%;
   height: 150px;
   width: 150px;
+  border: 2px solid #0b4251;
+  background-image: linear-gradient(to bottom right, #8000ff, #de00ff);
 }
 #call,
 #email {
