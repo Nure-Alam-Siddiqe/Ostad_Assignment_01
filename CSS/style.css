@@ -1,3 +1,8 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 #profile_card {
   position: absolute;
   top: 50%;
@@ -10,6 +15,7 @@
   height: auto;
   background: rgba(25, 200, 255, 0.2);
   border-radius: 5px;
+  position: relative;
 }
 #perosnal_photo {
   display: block;
@@ -17,4 +23,14 @@
   border-radius: 50%;
   height: 150px;
   width: 150px;
+}
+#call,
+#email {
+  text-decoration: none;
+}
+#person_name {
+  text-align: center;
+}
+#description {
+  text-align: justify;
 }

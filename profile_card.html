@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Card</title>
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!-- Personal Profile Card -->
@@ -18,8 +19,10 @@
             width="300"
             height="300"
           />
-          <h3>Nure Alam Siddique</h3>
-          <p>Fronted Web Developer</p>
+          <div id="person_name">
+            <h3>Nure Alam Siddique</h3>
+            <p>Fronted Web Developer</p>
+          </div>
         </div>
         <div id="description">
           <p>
@@ -29,9 +32,20 @@
           </p>
         </div>
         <div id="contact">
-          <span><strong>Email : </strong>mdnasiddiqe@gmail.com</span>
-          <span><strong>Mobile : </strong>+8801728000000</span>
+          <span>
+            <strong><i class="fa-brands fa-linkedin"></i><a href="" id="email"></a>
+              </span>
+            </strong>
+          </span>
+          <span>
+            <strong
+              ><span class="material-symbols-outlined"
+                ><a href="tel:01558206232" id="call">call</a>
+              </span>
+            </strong>
+          </span>
         </div>
+        <!-- <input type="email" name="email" id="email" /> -->
       </section>
     </main>
   </body>
